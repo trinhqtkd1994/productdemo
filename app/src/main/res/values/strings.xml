@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Smart Restaurant</string>
+    <string name="Login">Login :</string>
+    <string name="Staff">Staff</string>
+    <string name="Diners">Diners</string>
+    <string name="Account">Account</string>
+    <string name="Password">Password</string>
+    <string name="CreateAccount">You need Account? </string>
+    <string name="Registration">Registration</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Phone">Phone</string>
+    <string name="Manager">Manager</string>
+</resources>

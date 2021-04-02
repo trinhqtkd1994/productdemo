@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Restaurant</string>
+    <string name="Login">Đăng Nhập :</string>
+    <string name="Staff">Nhân Viên</string>
+    <string name="Diners">Thực Khách</string>
+    <string name="Account">Tài Khoản</string>
+    <string name="Password">Mật Khẩu</string>
+    <string name="CreateAccount">Bạn muốn tạo tài khoản? </string>
+    <string name="Registration">Đăng Ký</string>
+    <string name="SignIn">Đăng Nhập</string>
+    <string name="Phone">Số Điện Thoại</string>
+    <string name="Manager">Quản Lý</string>
+</resources>
