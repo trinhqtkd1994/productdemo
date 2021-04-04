@@ -25,5 +25,8 @@
     <string name="Rate">Rate</string>
     <string name="Rank">Rank</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="HomeFragment">Hello Home fragment</string>
+    <string name="StaffFragment">Hello Staff fragment</string>
+    <string name="MenuFoodFragment">Hello MenuFood fragment</string>
+    <string name="RevenueFragment">Hello Revenue fragment</string>
 </resources>

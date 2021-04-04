@@ -32,17 +32,48 @@ public class HomeStaffActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if (item.getItemId() == R.id.nav_home) {// Create new fragment and transaction
-                    Fragment newFragment = new HomeFragment();
-                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                switch (item.getItemId() ) {
+                    case R.id.nav_home:
+                    Fragment homeFragment = new HomeFragment();
+                    FragmentTransaction transaction1 = getSupportFragmentManager()
+                            .beginTransaction();
 
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack if needed
-                    transaction.replace(R.id.fContainer, newFragment);
-                    transaction.addToBackStack(null);
+                    transaction1.replace(R.id.fContainer, homeFragment);
+                    transaction1.addToBackStack(null);
 
-// Commit the transaction
-                    transaction.commit();
+                    transaction1.commit();
+                    break;
+                    case R.id.nav_pag1:
+                        Fragment staffFragment = new StaffFragment();
+                        FragmentTransaction transaction2 = getSupportFragmentManager()
+                                .beginTransaction();
+
+                        transaction2.replace(R.id.fContainer, staffFragment);
+                        transaction2.addToBackStack(null);
+
+                        transaction2.commit();
+                        break;
+                    case R.id.nav_pag2:
+                        Fragment menuFoodFragment = new MenuFoodFragment();
+                        FragmentTransaction transaction3 = getSupportFragmentManager()
+                                .beginTransaction();
+
+                        transaction3.replace(R.id.fContainer, menuFoodFragment);
+                        transaction3.addToBackStack(null);
+
+                        transaction3.commit();
+
+                        break;
+                    case R.id.nav_pag3:
+                        Fragment revenueFragment = new RevenueFragment();
+                        FragmentTransaction transaction4 = getSupportFragmentManager()
+                                .beginTransaction();
+
+                        transaction4.replace(R.id.fContainer, revenueFragment);
+                        transaction4.addToBackStack(null);
+
+                        transaction4.commit();
+                        break;
                 }
                 return false;
             }
@@ -59,5 +90,14 @@ public class HomeStaffActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
+    }
+int click = 0;
+    @Override
+    public void onBackPressed() {
+        if(click<2){
+            click++;
+            return;
+        }
+        super.onBackPressed();
     }
 }

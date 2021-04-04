@@ -69,4 +69,14 @@ public class MainActivity extends AppCompatActivity {
         imgIconVN = (ImageView) findViewById(R.id.img_IconVN);
         imgIconENG = (ImageView) findViewById(R.id.img_IconEng);
     }
+
+    int click = 0;
+    @Override
+    public void onBackPressed() {
+        if(click<2){
+            click++;
+            return;
+        }
+        super.onBackPressed();
+    }
 }
