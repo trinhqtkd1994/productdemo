@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartRestaurant">
-        <activity android:name=".LoginStaffActivity"></activity>
+        <activity android:name=".HomeStaffActivity"></activity>
+        <activity android:name=".LoginStaffActivity" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">

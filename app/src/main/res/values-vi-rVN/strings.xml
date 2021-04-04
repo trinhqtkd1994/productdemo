@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Smart Restaurant</string>
-    <string name="Login">Đăng Nhập :</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="Login">Đăng Nhập</string>
     <string name="Staff">Nhân Viên</string>
     <string name="Diners">Thực Khách</string>
     <string name="Account">Tài Khoản</string>
@@ -11,4 +14,15 @@
     <string name="SignIn">Đăng Nhập</string>
     <string name="Phone">Số Điện Thoại</string>
     <string name="Manager">Quản Lý</string>
+    <string name="AccountRequired">Để đăng nhập bạn phải có tài khoản do nhà hàng cung cấp</string>
+    <string name="MenuFood">Thực Đơn</string>
+    <string name="TableDiner">Bàn Ăn</string>
+    <string name="ProfileStaff">Nhân Viên</string>
+    <string name="Revenue">Doanh Thu</string>
+    <string name="Home">Trang Chủ</string>
+    <string name="Summary">Kết Quả</string>
+    <string name="Communicate">Giao Tiếp</string>
+    <string name="Share">Chia Sẻ</string>
+    <string name="Rate">Đánh Giá</string>
+    <string name="Rank">Cấp Bậc</string>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="@string/Home"/>
+        <item android:id="@+id/nav_pag1"
+            android:icon="@drawable/ic_storage_24"
+            android:title="@string/MenuFood"/>
+        <item android:id="@+id/nav_pag2"
+            android:icon="@drawable/ic_person_24"
+            android:title="@string/ProfileStaff"/>
+        <item android:id="@+id/nav_pag3"
+            android:icon="@drawable/ic_revenue_up_24"
+            android:title="@string/Revenue"/>
+    </group>
+    <item android:title="@string/Communicate">
+        <menu>
+            <item android:title="@string/Share"
+                android:icon="@drawable/ic_share_24"
+                android:id="@+id/nav_share"/>
+            <item android:title="@string/Rate"
+                android:icon="@drawable/ic_star_rate_24"
+                android:id="@+id/nav_rate"/>
+        </menu>
+    </item>
+</menu>

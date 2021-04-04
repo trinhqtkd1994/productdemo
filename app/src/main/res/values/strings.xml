@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Smart Restaurant</string>
-    <string name="Login">Login :</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="Login">Login</string>
     <string name="Staff">Staff</string>
     <string name="Diners">Diners</string>
     <string name="Account">Account</string>
@@ -10,4 +13,17 @@
     <string name="SignIn">Sign In</string>
     <string name="Phone">Phone</string>
     <string name="Manager">Manager</string>
+    <string name="AccountRequired">To log in you must have an account provided by the restaurant</string>
+    <string name="MenuFood">Menu Food</string>
+    <string name="TableDiner">Table Diner</string>
+    <string name="ProfileStaff">Profile Staff</string>
+    <string name="Revenue">Revenue</string>
+    <string name="Home">Home</string>
+    <string name="Summary">summary</string>
+    <string name="Communicate">Communicate</string>
+    <string name="Share">Share</string>
+    <string name="Rate">Rate</string>
+    <string name="Rank">Rank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
