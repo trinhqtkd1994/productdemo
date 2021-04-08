@@ -53,17 +53,7 @@ public class HomeStaffActivity extends AppCompatActivity {
 
                         transaction2.commit();
                         break;
-                    case R.id.nav_menuFood:
-                        Fragment menuFoodFragment = new MenuFoodFragment();
-                        FragmentTransaction transaction3 = getSupportFragmentManager()
-                                .beginTransaction();
 
-                        transaction3.replace(R.id.fContainer, menuFoodFragment);
-                        transaction3.addToBackStack(null);
-
-                        transaction3.commit();
-
-                        break;
                     case R.id.nav_revenue:
                         Fragment revenueFragment = new RevenueFragment();
                         FragmentTransaction transaction4 = getSupportFragmentManager()
