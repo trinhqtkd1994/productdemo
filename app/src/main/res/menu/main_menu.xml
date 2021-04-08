@@ -4,13 +4,13 @@
         <item android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_24"
             android:title="@string/Home"/>
-        <item android:id="@+id/nav_pag1"
+        <item android:id="@+id/nav_menuFood"
             android:icon="@drawable/ic_storage_24"
             android:title="@string/MenuFood"/>
-        <item android:id="@+id/nav_pag2"
+        <item android:id="@+id/nav_profileStaff"
             android:icon="@drawable/ic_person_24"
             android:title="@string/ProfileStaff"/>
-        <item android:id="@+id/nav_pag3"
+        <item android:id="@+id/nav_revenue"
             android:icon="@drawable/ic_revenue_up_24"
             android:title="@string/Revenue"/>
     </group>

@@ -43,7 +43,7 @@ public class HomeStaffActivity extends AppCompatActivity {
 
                     transaction1.commit();
                     break;
-                    case R.id.nav_pag1:
+                    case R.id.nav_profileStaff:
                         Fragment staffFragment = new StaffFragment();
                         FragmentTransaction transaction2 = getSupportFragmentManager()
                                 .beginTransaction();
@@ -53,7 +53,7 @@ public class HomeStaffActivity extends AppCompatActivity {
 
                         transaction2.commit();
                         break;
-                    case R.id.nav_pag2:
+                    case R.id.nav_menuFood:
                         Fragment menuFoodFragment = new MenuFoodFragment();
                         FragmentTransaction transaction3 = getSupportFragmentManager()
                                 .beginTransaction();
@@ -64,7 +64,7 @@ public class HomeStaffActivity extends AppCompatActivity {
                         transaction3.commit();
 
                         break;
-                    case R.id.nav_pag3:
+                    case R.id.nav_revenue:
                         Fragment revenueFragment = new RevenueFragment();
                         FragmentTransaction transaction4 = getSupportFragmentManager()
                                 .beginTransaction();
@@ -75,7 +75,8 @@ public class HomeStaffActivity extends AppCompatActivity {
                         transaction4.commit();
                         break;
                 }
-                return false;
+                drawerLayout.closeDrawers();
+                return true;
             }
         });
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerMain);
