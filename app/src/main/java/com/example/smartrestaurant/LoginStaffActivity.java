@@ -13,7 +13,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class LoginStaffActivity extends AppCompatActivity {
-    ImageButton imgButtonback;
     EditText edtAccountLogin,edtPasswordLogin;
     Button btnLoginUser;
 
@@ -26,15 +25,6 @@ public class LoginStaffActivity extends AppCompatActivity {
     }
 
     private void Onclick() {
-        imgButtonback.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginStaffActivity.this
-                        ,MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
         btnLoginUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,7 +62,6 @@ public class LoginStaffActivity extends AppCompatActivity {
 
 
     private void AnhXa() {
-        imgButtonback = (ImageButton) findViewById(R.id.img_ButtonBack);
         edtAccountLogin = (EditText) findViewById(R.id.edt_LoginAccount);
         edtPasswordLogin = (EditText) findViewById(R.id.edt_LoginPassword);
         btnLoginUser = (Button) findViewById(R.id.btn_LoginAccount);
