@@ -54,54 +54,58 @@
             <TextView
                 android:maxLines="1"
                 android:lines="1"
-                android:layout_marginRight="2dp"
-                android:layout_marginLeft="2dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
                 android:textColor="@color/pink"
                 android:textStyle="bold"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:text="@string/AccountRequired"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content" />
             <EditText
                 android:inputType="text"
                 android:maxLines="1"
                 android:lines="1"
                 android:id="@+id/edt_LoginAccount"
-                android:gravity="center_horizontal"
-                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:textSize="24sp"
                 android:background="@drawable/custom_view"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="40dp"
                 android:hint="@string/Account"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                tools:ignore="RtlSymmetry" />
             <EditText
                 android:maxLines="1"
                 android:lines="1"
                 android:id="@+id/edt_LoginPassword"
-                android:gravity="center_horizontal"
-                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:textSize="24sp"
                 android:background="@drawable/custom_view"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="20dp"
                 android:inputType="textPassword"
                 android:hint="@string/Password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                tools:ignore="RtlSymmetry" />
 
             <Button
                 android:id="@+id/btn_LoginAccount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="90dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginRight="90dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/custom_button"
                 android:text="@string/Login"
-                app:backgroundTint="@color/pink" />
+                app:backgroundTint="@color/teal_700" />
         </LinearLayout>
     </LinearLayout>
 
