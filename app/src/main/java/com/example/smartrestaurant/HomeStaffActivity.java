@@ -42,6 +42,7 @@ public class HomeStaffActivity extends AppCompatActivity {
                     transaction1.addToBackStack(null);
 
                     transaction1.commit();
+                    toolbar.setTitle(R.string.Home);
                     break;
                     case R.id.nav_profileStaff:
                         Fragment staffFragment = new StaffFragment();
@@ -52,6 +53,7 @@ public class HomeStaffActivity extends AppCompatActivity {
                         transaction2.addToBackStack(null);
 
                         transaction2.commit();
+                        toolbar.setTitle(R.string.Staff);
                         break;
 
                     case R.id.nav_revenue:
@@ -63,6 +65,7 @@ public class HomeStaffActivity extends AppCompatActivity {
                         transaction4.addToBackStack(null);
 
                         transaction4.commit();
+                        toolbar.setTitle(R.string.Revenue);
                         break;
                 }
                 drawerLayout.closeDrawers();

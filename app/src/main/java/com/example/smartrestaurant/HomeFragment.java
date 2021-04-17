@@ -13,9 +13,6 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class HomeFragment extends Fragment {
-    private ImageView imgTable;
-    private EditText edtNumberTable;
-    private RecyclerView recyclerView;
 
     @Nullable
     @Override
